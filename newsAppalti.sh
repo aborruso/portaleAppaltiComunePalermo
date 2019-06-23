@@ -15,4 +15,4 @@ curl "https://portaleappalti.comune.palermo.it/PortaleAppalti/it/ppgare_doc_news
   # rimuovi "a capo"
   sed 's/\\n/ /g' |
   # converti json in TSV
-  mlr --j2t cat >"$folder"/dati/news.tsc
+  mlr --j2t cat >"$folder"/dati/news.tsv
